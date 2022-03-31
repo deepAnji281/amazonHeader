@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    border-color: white;
+    border: 10px;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color:	#1a0000;
+    height: 60px;
+    display: flex;
+}
+.image img{
+    height: 60px;
+    margin: 1px;
+    padding: 6px;
+}
+.address{
+    /* background-color:red; */
+    height: 60px;
+    width: 110px;
+    position: relative;
+    margin: 1px;
+    padding: 5px;
+    
+
+}
+.icon i{
+    position: absolute;
+    top:13px;
+    left: 12px;
+    height: 19px;
+    width:15px;
+    color:red;
+}
+.loc{
+    display: flex;
+    justify-content: center;
+    margin-left: 19px;
+    margin-top: 4px;
+}
+.searchBar{
+    position: relative;
+}
+.search input{
+    width: 500px;
+    height:30px;
+    border-radius: 10px;
+    position: absolute;
+    left:10px;
+    top: 12px;
+}
+.search-icon i{
+    /* background-color:yellow; */
+    height:25px;
+    width: 25px;
+    position:absolute;
+    left:470px;
+    top: 20px;
+    bottom:15px;
+    font-size: 20px;
+}
+.country{
+    position: relative;
+}
+.flag img{
+    height: 60px;
+    position: absolute;
+    left:540px;
+    margin: 4px;
+    padding: 6px;
+}
+.personal{
+    position: relative;
+}
+.login{
+    /* background-color: yellow; */
+    height: 60px;
+    width: 140px;
+    position: absolute;
+    left:620px;
+}
+.login .hello{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.login .account{
+    margin-top: 10px;
+    font-size: 18px;
+    position: absolute;
+    top:17px;
+}
+.order-detail{
+    position: relative;
+
+    
+}
+.return-detail{
+    /* background-color: yellow; */
+    height: 60px;
+    width: 80px;
+    position: absolute;
+    left:780px;
+}
+.shopping-cart{
+    position: relative;
+}
+.cart-icon{
+    /* background-color: yellow; */
+    height: 60px;
+    width:100px;
+    position: absolute;
+    left:900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginBar{
+    position: relative;
+}
+.loginBar .image{
+    position: absolute;
+    left:1050px;
+}
+.loginBar ._a{
+    position: absolute;
+    left:1120px;
+    top:15px;
+}
+
